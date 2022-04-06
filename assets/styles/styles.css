@@ -1,0 +1,67 @@
+
+
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    }
+
+    body {
+        margin: 0;
+    }
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+
+}
+h1 {position: absolute;
+    float: left;
+    margin-top: 10px;
+    color: blanchedalmond;
+    padding: 3px;
+    margin-left: 2%;
+
+}
+ul { 
+    width: auto;
+    float: right;
+    margin-top: 8px;
+
+}
+
+li {display: inline-block;
+    padding: 15px 30px;
+
+}
+
+a {
+    text-align: center;
+    color: aquamarine;
+
+}
+
+
+.main {
+    border: 1px solid plum;
+    height: 400px;
+    /* flex properties */
+    display: flex;
+    flex-direction: row;
+    
+    /* direction row main axis x placement */
+    justify-content: center;
+    
+
+
+}
+
+.box {
+    border: 1px solid rgb(115, 48, 115);
+    width: 100px;
+    height: 100px;
+    
+}
+
